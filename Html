@@ -1,0 +1,314 @@
+[26/02, 12:23 PM] +91 83699 35516: <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- Linking bootstrap-min.css file -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- Linking bootstrap CDN -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+</head>
+
+<body>
+
+    <!-- container -fixed width container -->
+    <!-- main division -->
+    <div class="container">
+        <!-- second division -->
+        <div class="jumbotron bg-success">
+            <h1 class="text-center text-light">ATOS SYNTEL -BOOTSTRAP 4</h1>
+
+            <!-- second division -->
+        </div>
+
+
+        <hr />
+
+        <!-- GRID LAYOUT OR GRID SYSTEM -->
+        <!-- BOOTSTRAP 4 - COVERS 5 SCREEN SIZES -->
+        <!-- xl - extra large 
+            lg - large 
+            md - medium 
+            sm - small
+            xs - extra screen [bydefault] 
+
+            Bootstrap divides each row into 
+                12 Grids or cols
+        -->
+
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <h2 class="text-center">Employee</h2>
+
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <h2 class="text-center">Department</h2>
+            </div>
+            <div class="col-lg-4 col-md-8">
+                <h2 class="text-center">Admin</h2>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html"> Login </a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+
+    </div>
+    <!-- main division close -->
+
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/Banking_Services.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/cheque.gif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/crop.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</body>
+
+</html>
+[26/02, 12:48 PM] +91 83699 35516: <html>
+
+<head>
+    <title>JQuery Demo</title>
+    <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" 
+            type="text/javascript"-->
+    <script type="text/javascript" src="scripts/jquery-1.4.4.min.js">
+    </script>
+
+
+</head>
+
+<body>
+    <h1 id="para1" style="position:relative" align="center">This heading can be applied JQuery effects</h1>
+    <p id="para2">Click the buttons and see the effects</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="showhide">Toggle Show/Hide</button>
+    <button id="slideup">Slide Up</button>
+    <button id="slidedown">Slide Down</button>
+    <button id="slidetoggle">Slide Toggle</button>
+    <button id="fadein">Fade In</button>
+    <button id="fadeout">Fade Out</button>
+    <button id="fadetoggle">Fade Toggle</button>
+    <button id="animate">Animate</button>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $("#para1").hide();
+            });
+            $("#show").click(function () {
+                $("#para1").show();
+            });
+            $("#showhide").click(function () {
+                $("#para1").toggle();
+            });
+            $("#slideup").click(function () {
+                $("#para1").slideUp();
+            });
+            $("#slidedown").click(function () {
+                $("#para1").slideDown();
+            });
+            $("#slidetoggle").click(function () {
+                $("#para1").slideToggle();
+            });
+            $("#fadein").click(function () {
+                $("#para1").fadeIn();
+            });
+            $("#fadeout").click(function () {
+                $("#para1").fadeOut();
+            });
+            $("#fadetoggle").click(function () {
+                $("#para1").fadeToggle();
+            });
+            $("#animate").click(function () {
+                $("#para1").animate({ right: "15px", opacity: "0.2", fontSize: "30px", width: "5px" }, 4000);
+            });
+
+        });
+
+
+    </script>
+
+</body>
+
+</html>
+[26/02, 12:48 PM] +91 83699 35516: <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- Linking bootstrap-min.css file -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- Linking bootstrap CDN -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+</head>
+
+<body>
+
+    <!-- container -fixed width container -->
+    <!-- main division -->
+    <div class="container">
+        <!-- second division -->
+        <div class="jumbotron bg-success">
+            <h1 class="text-center text-light">ATOS SYNTEL -BOOTSTRAP 4</h1>
+
+            <!-- second division -->
+        </div>
+
+
+        <hr />
+
+        <!-- GRID LAYOUT OR GRID SYSTEM -->
+        <!-- BOOTSTRAP 4 - COVERS 5 SCREEN SIZES -->
+        <!-- xl - extra large 
+            lg - large 
+            md - medium 
+            sm - small
+            xs - extra screen [bydefault] 
+
+            Bootstrap divides each row into 
+                12 Grids or cols
+        -->
+
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <h2 class="text-center">Employee</h2>
+
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <h2 class="text-center">Department</h2>
+            </div>
+            <div class="col-lg-4 col-md-8">
+                <h2 class="text-center">Admin</h2>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html"> Login </a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+
+    </div>
+    <!-- main division close -->
+
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/Banking_Services.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/cheque.gif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/crop.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</body>
+
+</html>
